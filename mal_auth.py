@@ -36,8 +36,8 @@ def generate_token(client_id, client_secret, code, code_verifier):
     refresh_token = rep_json['refresh_token']
     expiration = rep_json['expires_in']
 
-    print(f"Informations : \n-access-token : {token}\n-refresh_token : {refresh_token}\n-expiration : {expiration}\n You can now call mal api\nSaving token in token.txt...")
-    fic = open('token.txt', 'w')
+    print(f"Informations : \n-access-token : {token}\n-refresh_token : {refresh_token}\n-expiration : {expiration}\n You can now call mal api\nSaving mal_token in mal_token.txt...")
+    fic = open('mal_token.txt', 'w')
     fic.write(token)
     _fic = open('refresh_token.txt', 'w')
     _fic.write(refresh_token)
