@@ -46,7 +46,7 @@ Sur Linux :
 
     python3 bot.py
 
-**Remarque : vous devez changer vous même le token lorsque celui sera expiré, un système qui le change automatiquement lorsque celui-ci sera expiré sera probablement fait dans le futur. Pour changer votre token lorsqu'il est expiré c'est la : [MAL-Token](https://myanimelist.net/apiconfig/references/authorization#refreshing-an-access-token)**
+**Remarque : vous devez changer vous même l'accès token lorsque celui sera expiré, un système qui le change automatiquement lorsque celui-ci sera expiré sera probablement fait dans le futur. Pour changer votre token lorsqu'il est expiré c'est la : [MAL-Token](https://myanimelist.net/apiconfig/references/authorization#refreshing-an-access-token)**
 
 Les explications en anglais arriveront plus tard. 
 
