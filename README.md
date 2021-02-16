@@ -22,7 +22,7 @@ Partie 1 :
 
        pip install requests
      
-- Lancer le script avec python, il vous donne une url, vous devez la copier coller dans votre navigateur, ensuite vous cliquez sur "Allow" et vous serez redirigé sur l'url que vous avez entré dans les paramètres de votre client API. Dans l'url de cette page vous verrez une variable en GET ?code='...'. Copier ce code et coller le dans l'input dans votre terminal. Une fois ceci fait, dans votre terminal vous devriez voir votre accès_token, le refresh_token et quand l'accès token expire. L'accès token et le refresh_token sont sauvegardés dans leur fichier respectif : token.txt et refresh_token.txt. Ne les toucher pas
+- Lancer le script avec python, il vous donne une url, vous devez la copier coller dans votre navigateur, ensuite vous cliquez sur "Allow" et vous serez redirigé sur l'url que vous avez entré dans les paramètres de votre client API. Dans l'url de cette page vous verrez une variable en GET ?code='...'. Copier ce code et coller le dans l'input dans votre terminal. Une fois ceci fait, dans votre terminal vous devriez voir votre accès_token, le refresh_token et quand l'accès token expire. L'accès token et le refresh_token sont sauvegardés dans leur fichier respectif : mal_token.txt et refresh_token.txt. Ne les toucher pas
 
 
 Partie 2 : 
@@ -34,7 +34,7 @@ Partie 2 :
 
       pip install aiohttp
 
-- Mettez votre access_token dans token.txt et votre refresh_token dans refresh_token.txt (on parle bien du token de l'api et non celui de votre bot discord
+- Mettez votre access_token dans mal_token.txt et votre refresh_token dans refresh_token.txt (on parle bien du token de l'api et non celui de votre bot discord). Si vous avez suivi la partie 1 vous n'avez pas besoin de faire cette étape car les fichiers contiennent déjà votre mal_token et votre refresh_token
 - Remplacer 'YOUR_TOKEN' par le token de votre **bot discord** dans le code (ligne 8)
 - Lancer le bot avec python 
 
