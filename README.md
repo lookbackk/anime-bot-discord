@@ -30,9 +30,9 @@ Partie 2 :
 
 - Installer les modules nécessaires : 
 
-pip install discord
+      pip install discord
 
-pip install aiohttp
+      pip install aiohttp
 
 - Mettez votre access_token dans token.txt et votre refresh_token dans refresh_token.txt (on parle bien du token de l'api et non celui de votre bot discord
 - Remplacer 'YOUR_TOKEN' par le token de votre **bot discord** dans le code (ligne 8)
