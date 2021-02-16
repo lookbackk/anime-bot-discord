@@ -15,7 +15,7 @@ Pré-requis :
             - avoir créer un client pour accèder à l'api de myanimelist et avoir récupérer le client_id et client_secret
             
 Partie 1 :
-**Si vous n'avez pas récupérer votre accès_token et refresh_token de l'api vous devez suivre cette partie, si cela est déjà vous pouvez directement passer à la partie 2:**
+**Si vous n'avez pas récupérer votre accès_token et refresh_token de l'api vous devez suivre cette partie, si cela est déjà fait vous pouvez passer cette étape et vous rendre à la partie 2:**
 
 - Insérer votre client_id et client_secret dans le code du script mal_auth.py (ligne 5 et 6)
 - Installer le module requests : 
