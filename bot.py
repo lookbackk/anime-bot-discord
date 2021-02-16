@@ -11,9 +11,9 @@ token = "YOUR_TOKEN"
 @bot.command()
 async def anime(ctx, *, arg):
     try:
-        acces_token = open('token.txt', 'r')
-        acces_token = acces_token.read()
-        header = {'Authorization': 'Bearer {}'.format(acces_token)}
+        mal_token = open('mal_token.txt', 'r')
+        mal_token = mal_token.read()
+        header = {'Authorization': 'Bearer {}'.format(mal_token)}
         params = {'q': arg, 'limit': 4, 'fields': 'id,title,synopsis,status,rank,status,num_episodes'}
         async with aiohttp.ClientSession() as session:
             async with session.get('https://api.myanimelist.net/v2/anime', headers=header, params=params) as req:
