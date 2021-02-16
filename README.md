@@ -38,9 +38,13 @@ Partie 2 :
 - Remplacer 'YOUR_TOKEN' par le token de votre **bot discord** dans le code (ligne 8)
 - Lancer le bot avec python 
 
-Sur Windows : python bot.py 
+Sur Windows : 
 
-Sur Linux : python3 bot.py
+    python bot.py 
+
+Sur Linux :  
+
+    python3 bot.py
 
 **Remarque : vous devez changer vous même le token lorsque celui sera expiré, un système qui le change automatiquement lorsque celui-ci sera expiré sera probablement fait dans le futur. Pour changer votre token lorsqu'il est expiré c'est la : [MAL-Token](https://myanimelist.net/apiconfig/references/authorization#refreshing-an-access-token)**
 
