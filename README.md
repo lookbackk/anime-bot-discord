@@ -85,7 +85,7 @@ Part 2 :
       pip install aiohttp
 
 - Put your access_token in mal_token.txt and your refresh_token in refresh_token.txt (we are talking about the api token and not your discord bot token). If you followed part 1 you don't need to do this step because the files already contain your mal_token and your refresh_token
-- Replace 'YOUR_TOKEN' by the token of your **discordant boot** in the code (line 8)
+- Replace 'YOUR_TOKEN' by the token of your **discord bot** in the code (line 8)
 - Launch the bot with python 
 
 On Windows : 
@@ -98,5 +98,5 @@ On Linux :
 
 **Note: you have to change the token access yourself when it expires, a system that changes it automatically when it expires will probably be done in the future. To change your token when it's expired it's the : [MAL-Token](https://myanimelist.net/apiconfig/references/authorization#refreshing-an-access-token)**
 
-Translated with www.DeepL.com/Translator (free version)
+
                       
