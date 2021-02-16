@@ -2,7 +2,7 @@
 
 :octocat:	**Explications en Français**
 
-Ce bot vous permettra d'avoir des informations sur un anime avec la commande !anime <anime> et plus tard sur des mangas. Les informations sur les animés sont récupérés avec des requêtes sur l'api de myanimelist 
+Ce bot vous permettra d'avoir des informations sur un anime avec la commande !anime <anime> et plus tard sur des mangas. Les informations sur les animés sont récupérées avec des requêtes sur l'api de myanimelist 
 
 ![Image of command !anime](https://i.ibb.co/ZcdK9M3/bot.png)
 
