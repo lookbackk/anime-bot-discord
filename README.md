@@ -20,7 +20,7 @@ Partie 1 :
 - Insérer votre client_id et client_secret dans le code du script mal_auth.py (ligne 5 et 6)
 - Installer le module requests : 
 
-      - pip install requests
+       pip install requests
      
 - Lancer le script avec python, il vous donne une url, vous devez la copier coller dans votre navigateur, ensuite vous cliquez sur "Allow" et vous serez redirigé sur l'url que vous avez entré dans les paramètres de votre client API. Dans l'url de cette page vous verrez une variable en GET ?code='...'. Copier ce code et coller le dans l'input dans votre terminal. Une fois ceci fait, dans votre terminal vous devriez voir votre accès_token, le refresh_token et quand l'accès token expire. L'accès token et le refresh_token sont sauvegardés dans leur fichier respectif : token.txt et refresh_token.txt. Ne les toucher pas
 
